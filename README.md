@@ -40,9 +40,9 @@ The **IP Configuration** project provides a simple and intuitive web interface t
 ```bash
 git clone https://github.com/DevduttKumar/ip-configuration.git
 cd ip-configuration
-
-
-Backend Setup (Flask):-
+```
+### 2️⃣ Backend Setup (Flask):-
+```bash
 cd backend
 python -m venv venv
 source venv/bin/activate   # Linux
@@ -50,8 +50,9 @@ venv\Scripts\activate      # Windows
 
 pip install -r requirements.txt
 python app.py
-
-Frontend Setup (React):-
+```
+### 3️⃣ Frontend Setup (React):-
+```bash
 cd frontend
 npm install
 npm start
